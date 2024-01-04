@@ -1,0 +1,54 @@
+body{
+    /* height: 100vh; */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container{
+    margin-top: 15vh;
+    padding: 1.5rem;
+    width: 300px;
+    height: auto;
+    border : 2px solid black;
+    border-radius: 1.5rem;
+
+
+}
+.containertodo{
+    margin-top: 10vh;
+    /* border: 2px solid black; */
+    height: 30vh;
+    width: 600px;
+}
+.todos {
+    margin-top: 8px;
+    height: 60vh;
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+.todos::-webkit-scrollbar {
+    width: 12px; /* For Chrome, Safari, and Opera */
+}
+
+.todos::-webkit-scrollbar-thumb {
+    background-color: transparent; /* For Chrome, Safari, and Opera */
+}
+h1{
+    font-size: larger;
+}
+.title{
+    width : 100% ; 
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color : black;
+    margin-bottom: 1.4rem;
+
+}
